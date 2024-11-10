@@ -5,7 +5,6 @@ Domain: Software Development
 
 
 Guess the Number:
-
 The program generates a random number between 1 and 100, and the player has to guess the correct number.
 After each guess, the program provides feedback on whether the guessed number is higher or lower than the actual number.
 
@@ -19,15 +18,18 @@ Contributing:
 * If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
 
 How it Works:
-
 Random Number Generation:
 The random module is used to generate a random integer between 1 and 100.
+
 User Input:
 The input() function prompts the user to enter their guess.
+
 Guess Comparison:
 The user's guess is compared to the generated number.
+
 Feedback:
 The program provides feedback indicating whether the guess is too high or too low.
+
 Game Over:
 The game ends when the user guesses the correct number, and the number of attempts is displayed.
 
